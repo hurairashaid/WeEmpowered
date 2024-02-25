@@ -1,0 +1,28 @@
+/* style.css */
+
+/* Hide default scrollbar */
+.scroll-container {
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #631a64 #e095e1; /* For Firefox */
+}
+
+/* WebKit (Chrome, Safari, Opera) */
+.scroll-container::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+}
+
+/* WebKit (Chrome, Safari, Opera) */
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #631a64; /* Color of the thumb */
+  border-radius: 6px; /* Roundness of the thumb */
+}
+
+/* WebKit (Chrome, Safari, Opera) */
+.scroll-container::-webkit-scrollbar-track {
+  background: #f7fafa;
+
+  /* Color of the track */
+}
+
+/* Additional styles can be added as needed */

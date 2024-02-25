@@ -1,0 +1,12 @@
+{
+  "appId": "com.example.app",
+  "appName": "anonymous",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "allowMixedContent": true,
+    "allowNavigation": [
+      "http://localhost:2000/api/*"
+    ]
+  }
+}
